@@ -153,9 +153,9 @@ const JobDetails = ({ id }: { id: string }) => {
           <div className="pr-16">
             <h1 className="text-3xl font-bold text-foreground mb-3">{job.job_title}</h1>
             <div className="flex items-center gap-3 text-lg text-muted-foreground mb-8">
-              <Avatar className="w-8 h-8 rounded-lg shadow-sm border border-border/50">
+              <Avatar className="w-8 h-8 rounded-sm shadow-sm border border-border/50">
                 <AvatarImage src={job.company?.logo} alt={companyName} className="object-cover" />
-                <AvatarFallback className="bg-primary/10 text-primary font-bold text-sm rounded-lg">
+                <AvatarFallback className="bg-primary/10 text-primary font-bold text-sm rounded-sm">
                   {companyName.charAt(0).toUpperCase()}
                 </AvatarFallback>
               </Avatar>

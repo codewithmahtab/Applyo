@@ -177,9 +177,9 @@ const JobCard: React.FC<JobCardProps> = ({ job }) => {
       <CardContent className="p-5">
         <div className="flex justify-between items-start gap-3">
           {/* Company Logo / Initial Badge */}
-          <Avatar className="w-11 h-11 rounded-xl shrink-0 border border-border/50 shadow-sm">
+          <Avatar className="w-11 h-11 rounded-sm shrink-0 border border-border/50 shadow-sm">
             <AvatarImage src={company?.logo} alt={companyName} className="object-cover" />
-            <AvatarFallback className="bg-primary/10 text-primary font-bold text-lg rounded-xl">
+            <AvatarFallback className="bg-primary/10 text-primary font-bold text-lg rounded-sm">
               {companyInitial}
             </AvatarFallback>
           </Avatar>

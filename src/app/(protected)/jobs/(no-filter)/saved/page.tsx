@@ -1,7 +1,8 @@
 'use client';
 
 import { useFavouriteJobs } from '@/hooks/useFavouriteJobs';
-import JobCard, { Job } from '@/components/JobCard';
+import SavedJobCard from '@/components/SavedJobCard';
+import { Job } from '@/components/JobCard';
 import JobCardSkeleton from '@/components/common/JobCardSkeleton';
 import { Heart } from 'lucide-react';
 
@@ -15,7 +16,7 @@ export default function SavedJobsPage() {
           <h1 className="text-xl font-bold">Saved Jobs</h1>
           <p className="text-sm text-muted-foreground invisible">Loading</p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 items-stretch">
           {Array.from({ length: 6 }).map((_, i) => (
             <JobCardSkeleton key={i} />
           ))}
@@ -45,9 +46,9 @@ export default function SavedJobsPage() {
       </div>
 
       {favouriteJobs.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 items-stretch">
           {favouriteJobs.map((job) => (
-            <JobCard key={job.id} job={{ ...job, isSaved: true }} />
+            <SavedJobCard key={job.id} job={{ ...job, isSaved: true }} />
           ))}
         </div>
       ) : (
@@ -62,3 +63,4 @@ export default function SavedJobsPage() {
     </div>
   );
 }
+
