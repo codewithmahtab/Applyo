@@ -68,7 +68,7 @@ export function RegisterForm({
         </div>
 
         <div className="mt-6 grid grid-cols-2 gap-3">
-          <Button type="button" variant="outline" className='h-11'>
+          <Button type="button" variant="outline" className='h-11' onClick={() => window.location.href = '/api/auth/oauth/google'}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="0.98em"
@@ -89,15 +89,11 @@ export function RegisterForm({
             </svg>
             <span>Google</span>
           </Button>
-          <Button type="button" variant="outline" className='h-11'>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="1em"
-              height="1em"
-              viewBox="0 0 24 24">
-              <path fill="#0a66c2" d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9h3.56v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06c0-1.14.92-2.06 2.06-2.06c1.14 0 2.06.92 2.06 2.06c0 1.14-.92 2.06-2.06 2.06zM20.45 20.45h-3.56v-5.61c0-1.34-.03-3.06-1.87-3.06c-1.87 0-2.15 1.46-2.15 2.96v5.71h-3.56V9h3.42v1.56h.05c.48-.9 1.63-1.85 3.37-1.85c3.6 0 4.27 2.37 4.27 5.45v6.29z" />
+          <Button type="button" variant="outline" className='h-11' onClick={() => window.location.href = '/api/auth/oauth/github'}>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="size-5 fill-foreground">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/>
             </svg>
-            <span>LinkedIn</span>
+            <span>GitHub</span>
           </Button>
         </div>
 

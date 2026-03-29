@@ -21,10 +21,10 @@ enum ApplicationStatus {
 }
 
 model User {
-  id             String        @id @default(auto()) @map("_id") @db.ObjectId
+  id             String         @id @default(auto()) @map("_id") @db.ObjectId
   name           String
-  email          String        @unique
-  password       String
+  email          String         @unique
+  password       String?
   bio            String?
   headline       String?
   phone          String?
@@ -32,13 +32,14 @@ model User {
   resumeUrl      String?
   skills         String[]
   avatar         String?
-  role           Role          @default(CANDIDATE)
-  createdAt      DateTime      @default(now())
-  applications   Application[] @relation("UserApplications")
-  ownedCompanies Company[]     @relation("UserCompanies")
-  postedJobs     Job[]         @relation("UserJobs")
-  favorites      Favorite[]    @relation("UserFavorites")
-  reviews        Reviews[]     @relation("UserReviews")
+  role           Role           @default(CANDIDATE)
+  createdAt      DateTime       @default(now())
+  applications   Application[]  @relation("UserApplications")
+  ownedCompanies Company[]      @relation("UserCompanies")
+  postedJobs     Job[]          @relation("UserJobs")
+  favorites      Favorite[]     @relation("UserFavorites")
+  reviews        Reviews[]      @relation("UserReviews")
+  oauthAccounts  OAuthAccount[] @relation("UserOAuthAccounts")
 }
 
 model Company {
@@ -117,4 +118,13 @@ model Reviews {
   user      User    @relation("UserReviews", fields: [userId], references: [id])
   companyId String  @db.ObjectId
   company   Company @relation("CompanyReviews", fields: [companyId], references: [id])
+}
+model OAuthAccount {
+  id                String @id @default(auto()) @map("_id") @db.ObjectId
+  provider          String
+  providerAccountId String
+  userId            String @db.ObjectId
+  user              User   @relation("UserOAuthAccounts", fields: [userId], references: [id])
+
+  @@unique([provider, providerAccountId])
 }

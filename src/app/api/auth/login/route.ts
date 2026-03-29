@@ -23,6 +23,13 @@ export const POST = async (req: NextRequest) => {
       );
     }
 
+    if (!user.password) {
+      return NextResponse.json(
+        { error: 'This account uses Google or LinkedIn sign-in. Please use the social login buttons.' },
+        { status: 401 }
+      );
+    }
+
     const isPasswordCorrect = await compare(password, user.password);
 
     if (!isPasswordCorrect) {
