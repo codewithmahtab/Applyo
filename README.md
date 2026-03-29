@@ -2,7 +2,7 @@
 
 Applyo is a modern, full-stack job application platform designed to help users discover, save, and apply to jobs seamlessly while providing companies with a streamlined way to post opportunities and manage applications.
 
-## 🚀 Getting Started
+## Getting Started
 
 Follow these steps to configure and run the project locally.
 
@@ -28,8 +28,8 @@ Create a `.env` file in the root directory and configure your essential environm
 DATABASE_URL="your_database_url_here"
 
 # JWT Secret for authentication
-ACCESS_SECRET="your_jwt_secret"
-REFRESH_SECRET="your_jwt_secret"
+ACCESS_SECRET="your_access_secret"
+REFRESH_SECRET="your_refresh_secret"
 
 ```
 
