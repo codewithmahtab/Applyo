@@ -123,7 +123,7 @@ async function main() {
       description:
         "Stripe builds economic infrastructure for the internet, helping millions of businesses accept payments and manage revenue online.",
       website: "https://stripe.com",
-      logo: "https://logo.clearbit.com/stripe.com",
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQGluJhW7I1NYU7jF77E-9K9I46_ib_DUNHw&s",
       size: "1,000–5,000",
       foundedYear: 2010,
       type: "Private",
@@ -135,7 +135,7 @@ async function main() {
       description:
         "Vercel is the platform for frontend developers, providing the speed and reliability innovators need to create at the moment of inspiration.",
       website: "https://vercel.com",
-      logo: "https://logo.clearbit.com/vercel.com",
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqwNwDUq_S0U6wDzS60c45kVK5zpxF-03wsQ&s",
       size: "200–500",
       foundedYear: 2015,
       type: "Private",
@@ -159,7 +159,7 @@ async function main() {
       description:
         "Figma is a collaborative design tool used by teams to design, prototype, and develop products.",
       website: "https://figma.com",
-      logo: "https://logo.clearbit.com/figma.com",
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzIx2yKNtEXVDcoxLdpkH8hZzsbVwVG4mLPA&s",
       size: "500–1,000",
       foundedYear: 2012,
       type: "Private",
@@ -171,7 +171,7 @@ async function main() {
       description:
         "Linear is the issue tracking tool built for high-performance teams—streamlined for speed and clarity.",
       website: "https://linear.app",
-      logo: "https://logo.clearbit.com/linear.app",
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaJiKm1WU87WttjIgAwJHWm7mW6SkAeXqv9g&s",
       size: "50–200",
       foundedYear: 2019,
       type: "Private",
@@ -183,7 +183,7 @@ async function main() {
       description:
         "Datadog provides monitoring, security, and analytics for cloud-scale infrastructure and applications.",
       website: "https://datadoghq.com",
-      logo: "https://logo.clearbit.com/datadoghq.com",
+      logo: "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/datadog.png",
       size: "5,000–10,000",
       foundedYear: 2010,
       type: "Public",
@@ -195,7 +195,7 @@ async function main() {
       description:
         "Shopify is a leading global commerce company, providing trusted tools to start, grow, market, and manage a retail business.",
       website: "https://shopify.com",
-      logo: "https://logo.clearbit.com/shopify.com",
+      logo: "https://play-lh.googleusercontent.com/lQYxSdISBENwWO7RCF1j_AzjzdOaa1LUgRckYPFVvDkSWdD8P6jqCZebmAyZfufGpIY",
       size: "10,000+",
       foundedYear: 2006,
       type: "Public",
@@ -207,7 +207,7 @@ async function main() {
       description:
         "Cloudflare is a global network designed to make everything you connect to the internet secure, private, fast, and reliable.",
       website: "https://cloudflare.com",
-      logo: "https://logo.clearbit.com/cloudflare.com",
+      logo: "https://images.icon-icons.com/2407/PNG/512/cloudflare_icon_146206.png",
       size: "3,000–5,000",
       foundedYear: 2009,
       type: "Public",
@@ -219,7 +219,7 @@ async function main() {
       description:
         "Plaid powers the digital financial ecosystem, connecting consumers, financial institutions, and developers.",
       website: "https://plaid.com",
-      logo: "https://logo.clearbit.com/plaid.com",
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyGof4CjGYWztcckBMubTZ_b6lOTKF0whcfw&s",
       size: "500–1,000",
       foundedYear: 2013,
       type: "Private",
@@ -231,7 +231,7 @@ async function main() {
       description:
         "HashiCorp provides infrastructure automation software for multi-cloud environments.",
       website: "https://hashicorp.com",
-      logo: "https://logo.clearbit.com/hashicorp.com",
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVS_K67R9x1aSb_TuNjVRl7gO5ZZ2mNtdnGw&s",
       size: "1,000–3,000",
       foundedYear: 2012,
       type: "Public",
@@ -243,7 +243,7 @@ async function main() {
       description:
         "Airtable is a low-code platform for building collaborative apps, combining the simplicity of a spreadsheet with database power.",
       website: "https://airtable.com",
-      logo: "https://logo.clearbit.com/airtable.com",
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqpGgFGW9P4mxFxsH1j-ezX2gn6hnTsYo1fg&s",
       size: "500–1,000",
       foundedYear: 2012,
       type: "Private",
@@ -255,7 +255,7 @@ async function main() {
       description:
         "Confluent is the data streaming company powering the next generation of real-time data pipelines with Apache Kafka.",
       website: "https://confluent.io",
-      logo: "https://logo.clearbit.com/confluent.io",
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSewVtfJRrjK8czAA3H5ZIU0ea883nkualDYQ&s",
       size: "1,000–3,000",
       foundedYear: 2014,
       type: "Public",
@@ -267,7 +267,7 @@ async function main() {
       description:
         "Twilio is a cloud communications platform that enables developers to build communication features into their applications.",
       website: "https://twilio.com",
-      logo: "https://logo.clearbit.com/twilio.com",
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw63dXYNveSM1wRCKeDEY556UxZUsLzQHtIw&s",
       size: "5,000–10,000",
       foundedYear: 2008,
       type: "Public",
@@ -279,7 +279,7 @@ async function main() {
       description:
         "PlanetScale is a MySQL-compatible serverless database platform built on Vitess, the database technology that scales YouTube.",
       website: "https://planetscale.com",
-      logo: "https://logo.clearbit.com/planetscale.com",
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx6WJEkenp9kbDSBMTDbDABUnzaw-amPFnhQ&s",
       size: "50–200",
       foundedYear: 2018,
       type: "Private",
@@ -291,7 +291,7 @@ async function main() {
       description:
         "Brex offers financial services and software for growing businesses, including corporate cards, business accounts, and expense management.",
       website: "https://brex.com",
-      logo: "https://logo.clearbit.com/brex.com",
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9CU1Yq1ghKSpJVRQKgnaoCQVgq7bsKPfhiA&s",
       size: "1,000–3,000",
       foundedYear: 2017,
       type: "Private",
@@ -303,7 +303,7 @@ async function main() {
       description:
         "Retool is the fast way to build internal tools, letting developers drag-and-drop components and connect to any database or API.",
       website: "https://retool.com",
-      logo: "https://logo.clearbit.com/retool.com",
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGvV4n-ymCIi0GqPvNeTsHRbgr6ClcsTUm_w&s",
       size: "200–500",
       foundedYear: 2017,
       type: "Private",
@@ -315,7 +315,7 @@ async function main() {
       description:
         "Segment is a customer data platform (CDP) that helps companies collect, clean, and control their customer data.",
       website: "https://segment.com",
-      logo: "https://logo.clearbit.com/segment.com",
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_6RLAbfD7O77YAzY06Nz8cGbTafSJvIj4fA&s",
       size: "500–1,000",
       foundedYear: 2011,
       type: "Acquired (Twilio)",
@@ -327,7 +327,7 @@ async function main() {
       description:
         "Sentry is an application monitoring platform that helps developers identify and fix bugs in real time.",
       website: "https://sentry.io",
-      logo: "https://logo.clearbit.com/sentry.io",
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7U6V3zZKs3xUTK8X_uAfX9VkvC2qimPVDSA&s",
       size: "500–1,000",
       foundedYear: 2012,
       type: "Private",
@@ -339,7 +339,7 @@ async function main() {
       description:
         "Temporal is an open-source workflow orchestration platform that makes it simple to build reliable applications at scale.",
       website: "https://temporal.io",
-      logo: "https://logo.clearbit.com/temporal.io",
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeeIF5RyawyEl9WeoWncPhvRrfBST1DQiBeg&s",
       size: "200–500",
       foundedYear: 2019,
       type: "Private",
@@ -351,7 +351,7 @@ async function main() {
       description:
         "Render is a unified cloud platform to build and run all your apps and websites with free TLS certificates, global CDN, and auto deploys.",
       website: "https://render.com",
-      logo: "https://logo.clearbit.com/render.com",
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSalPV29M2sCwMQ5inQz07BCWctDqZLGKdIJA&s",
       size: "50–200",
       foundedYear: 2019,
       type: "Private",
